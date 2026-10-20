@@ -1,0 +1,11 @@
+{
+  "name": "SIBAKU Lite",
+  "short_name": "SIBAKU Lite",
+  "description": "Pencarian cepat kode KBLI 2025 dengan bahasa sehari-hari",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf6f1",
+  "theme_color": "#e0704f",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

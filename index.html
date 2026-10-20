@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SIBAKU Lite</title>
+  <meta name="description" content="Pencarian cepat kode KBLI 2025 dengan bahasa sehari-hari. Bisa dipakai offline.">
+  <meta name="theme-color" content="#e0704f">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <div class="brand">
+        <span class="mark">K</span>
+        <div>
+          <h1>SIBAKU <b>Lite</b></h1>
+          <p>Cari kode KBLI 2025 dengan bahasa sehari-hari</p>
+        </div>
+        <button class="ghost" id="themeBtn" aria-label="Ganti tema">◐</button>
+      </div>
+      <div class="searchbox">
+        <span class="icon" aria-hidden="true">⌕</span>
+        <input id="q" type="search" autocomplete="off" spellcheck="false"
+               placeholder="contoh: bengkel motor, warung soto, 561, sawit" aria-label="Cari KBLI">
+        <button id="clear" class="clear" aria-label="Hapus" hidden>✕</button>
+      </div>
+      <div class="meta" id="meta"></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="results" aria-live="polite"></section>
+  </main>
+
+  <div id="toast" role="status"></div>
+
+  <footer class="wrap foot">
+    Data: 1.559 kode KBLI 2025 (Peraturan BPS 7/2025) dari API publik tenderx.id. Sebagian judul terpotong dari sumbernya.
+    <b>Bukan situs resmi BPS</b>, jadi selalu cocokkan dengan SIBAKU resmi.
+    <span id="offline"></span>
+  </footer>
+
+  <script src="js/kamus.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
